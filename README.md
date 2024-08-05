@@ -1,0 +1,1 @@
+# jogo_tabela_verdade
