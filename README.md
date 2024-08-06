@@ -1,12 +1,19 @@
-## JOGO DE TABELA-VERDADE E EQUIVALÊNCIA DE PREPOSIÇÕES
+# JOGO DE TABELA-VERDADE E EQUIVALÊNCIA DE PREPOSIÇÕES
 
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 &nbsp;
-![Linux](https://img.shields.io/badge/Linux-E95420?style=for-the-badge&logo=linux&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-f90101?style=for-the-badge&logo=Ubuntu&logoColor=black)
 &nbsp;
 ![VScode](https://img.shields.io/badge/VSCODE-4285F4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 &nbsp;
+## ATENÇÃO
+### Windows:
+Necessita a intalação apenas da extensão em python para ser executado
 
+### Linux:
+Necessita ter o python instalado e a biblioteca.
+
+"sudo apt install python3 && sudo apt install tkinter"
 # EXPLICAÇÃO
 
 #### Funcionalidades e Regras:
@@ -46,23 +53,23 @@ corretas.
 ● Converte valores de verdade True e False em V e F respectivamente &nbsp;
 
 # Explicação das Funcionalidades
-1. Geração de Proposições:
+### 1. Geração de Proposições:
 - A lista propositions contém funções que representam proposições lógicas
 básicas.
 - O jogo escolhe aleatoriamente uma dessas proposições para o jogador
 resolver.
-2. Geração de Valores de Verdade:
+### 2. Geração de Valores de Verdade:
 - A função generate_truth_values gera todas as combinações possíveis
 de valores de verdade para um número dado de proposições (neste caso, 2
 proposições: p e q).
-3. Cálculo da Tabela-Verdade:
+### 3. Cálculo da Tabela-Verdade:
 - A função calculate_truth_table avalia a proposição lógica para todas
 as combinações de valores de verdade.
 - eval(expression, {}, env) calcula o valor da proposição lógica no
 contexto dos valores atuais das variáveis.
-4. Impressão da Tabela-Verdade:
+### 4. Impressão da Tabela-Verdade:
 - A função print_truth_table exibe a tabela-verdade de maneira
 organizada para que o jogador possa verificar e aprender.
-5. Loop Principal do Jogo:
+### 5. Loop Principal do Jogo:
 - A função truth_table_game gerencia a seleção de proposições e a
 interação com o jogador, incluindo a opção de jogar novamente.
